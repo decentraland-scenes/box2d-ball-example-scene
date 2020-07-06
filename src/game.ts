@@ -92,7 +92,7 @@ class updateSystem implements ISystem {
     ball.getComponent(Transform).position.x = position.x
     ball.getComponent(Transform).position.y = position.y
 
-    // log(position.x.toFixed(2), position.y.toFixed(2), angle.toFixed(2))
+    log(position.x.toFixed(2), position.y.toFixed(2), angle.toFixed(2))
   }
 }
 
