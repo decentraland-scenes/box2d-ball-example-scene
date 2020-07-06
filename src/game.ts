@@ -61,7 +61,7 @@ const fixtureDef: b2FixtureDef = new b2FixtureDef()
 fixtureDef.shape = dynamicBox
 
 // Set the box density to be non-zero, so it will be dynamic.
-fixtureDef.density = 0.75
+fixtureDef.density = 1
 
 // Override the default friction.
 fixtureDef.friction = 0.5
