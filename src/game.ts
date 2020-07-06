@@ -53,7 +53,7 @@ bodyDef.type = b2BodyType.b2_dynamicBody
 bodyDef.position.Set(8, 8)
 const body: b2Body = world.CreateBody(bodyDef)
 
-// Define another box shape for our dynamic body.
+// Define another shape for our dynamic body.
 const dynamicBox: b2CircleShape = new b2CircleShape(1) // Radius to match ball radius
 
 // Define the dynamic body fixture.
